@@ -3,7 +3,7 @@ name: IPQ60XX-6.6-WIFI
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 19 * * *
+    - cron: 0 19 2 * *
 
 env:
   REPO_URL: https://github.com/breeze303/ipq60xx-6.6.git
